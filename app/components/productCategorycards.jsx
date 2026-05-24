@@ -16,7 +16,7 @@ export const ProductCategorycards = () => {
         </div>
         </div>
 
-        <button className='bg-[#232323] w-full p-2 mt-4 hover:bg-zinc-600'>VIEW</button>
+        <button className='bg-[#232323] w-full text-white p-2 mt-4 hover:bg-zinc-600'>VIEW</button>
        
     </div>
   )
