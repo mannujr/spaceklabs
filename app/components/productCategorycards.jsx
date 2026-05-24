@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 export const ProductCategorycards = () => {
   return (
-    <div className='p-2 w-[48%] lg:w-[23%] h-fit border-2 hover:bg-zinc-100 '>
-        <div className='ProuctCategoryImage lg:h-62.5 border flex items-center justify-center '>
+    <div className='p-2 w-[48%] lg:w-[23%] h-fit border-2 border-zinc-200 hover:bg-zinc-100 '>
+        <div className='ProuctCategoryImage lg:h-62.5 flex items-center justify-center '>
             <Image src="/logo.png" alt="Logo" width={180} height={250} />
         </div>
         <div className='Productdetails mt-2'>

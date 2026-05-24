@@ -52,7 +52,7 @@ const Navbar = () => {
             </div>
 
             {/* Nav Links */}
-            <ul className="gap-6 lg:flex justify-center items-center font-medium cursor-pointer lg:text-base ms-10 hidden lg:block">
+            <ul className="gap-6 lg:flex justify-center items-center font-medium cursor-pointer text-white lg:text-base ms-10 hidden lg:block">
            <Link href='/'>   <li className="hover:text-primary">Home</li>  </Link>
               <li className="hover:text-primary">Contact Us</li>
               <li className="hover:text-primary">About Us</li>
@@ -66,9 +66,9 @@ const Navbar = () => {
         </div>
       </div>
         {/* Categories */}
-        <div className="w-full py-3 bg-[#314555] hidden lg:block  ">
+        <div className="w-full py-3 bg-[#314555] hidden lg:block text-white  ">
           <ul className="flex flex-wrap items-center justify-center gap-3 text-sm font-medium mx-auto">
-            <li className="flex items-center hover:text-amber-400 cursor-pointer">
+            <li className="flex items-center hover:text-amber-400 cursor-pointer ">
               AMPLIFIERS <KeyboardArrowDownIcon fontSize="small" />
             </li>
 
