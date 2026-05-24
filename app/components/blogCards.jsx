@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export const BlogCards = () => {
   return (
-    <div className="relative w-full hover:bg-zinc-50 lg:min-w-[583px] lg:h-fit flex lg:flex-col px-2 py-3 gap-2  lg:gap-4 border-b-2 lg:border">
-      <div className="blogcard min-w-[80px] lg:w-full lg:h-[350px] border flex items-center justify-center ">
+    <div className="relative w-full hover:bg-zinc-50 lg:min-w-[583px] lg:h-fit flex lg:flex-col px-2 py-3 gap-2  lg:gap-4 ">
+      <div className="blogcard min-w-[80px] lg:w-full lg:h-[350px] border border-zinc-300 flex items-center justify-center ">
         <Image src="/logo.png" alt="Logo" width={150} height={150} />
         <button className="hidden lg:block  absolute bottom-38 right-6 bg-black text-white text-[10px] lg:text-sm px-4 py-4 rounded-full">
           Read
