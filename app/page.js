@@ -15,7 +15,7 @@ export default function Home() {
             <span className="text-blue-500 text-xs font-semibold p-2 px-5  bg-blue-950  w-fit rounded-2xl">
               NEXT-GEN OF TsECH
             </span>
-            <h1 className="text-5xl lg:text-5xl font-semibold">
+            <h1 className="text-5xl text-white lg:text-5xl font-semibold">
               MICROWAVE & MILLIMETER-WAVE{" "}
               <span className="text-amber-200">COMPONENTS</span>
             </h1>
